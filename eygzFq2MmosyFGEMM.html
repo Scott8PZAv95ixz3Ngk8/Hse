@@ -1,0 +1,217 @@
+<html><head><base href>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HSE Guidance - Votre ressource pour la santé, la sécurité et l'environnement</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --accent-color: #e74c3c;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: var(--primary-color);
+        }
+        .navbar {
+            background-color: var(--primary-color);
+        }
+        .navbar-brand, .nav-link {
+            color: white !important;
+        }
+        .hero {
+            background: linear-gradient(rgba(44, 62, 80, 0.7), rgba(44, 62, 80, 0.7)), url('https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+            background-size: cover;
+            background-position: center;
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+        .section-title {
+            border-bottom: 2px solid var(--secondary-color);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .card {
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">HSE Guidance</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#accueil">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#normes">Normes HSE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#qualites">Qualités HSE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ressources">Ressources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero" id="accueil">
+        <div class="container">
+            <h1 class="display-4">Bienvenue sur HSE Guidance</h1>
+            <p class="lead">Votre ressource complète pour la santé, la sécurité et l'environnement</p>
+            <a href="#normes" class="btn btn-light btn-lg mt-3">Découvrir nos ressources</a>
+        </div>
+    </header>
+
+    <main class="container mt-5">
+        <section id="normes">
+            <h2 class="section-title">Normes HSE</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">ISO 14001</h5>
+                            <p class="card-text">Norme internationale pour les systèmes de management environnemental.</p>
+                            <a href="#" class="btn btn-primary">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">OHSAS 18001</h5>
+                            <p class="card-text">Norme pour les systèmes de gestion de la santé et de la sécurité au travail.</p>
+                            <a href="#" class="btn btn-primary">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="qualites" class="mt-5">
+            <h2 class="section-title">Qualités essentielles d'un responsable HSE</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Compétences techniques</h5>
+                            <p class="card-text">Maîtrise des normes et réglementations HSE, analyse des risques, etc.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Communication</h5>
+                            <p class="card-text">Capacité à communiquer efficacement avec tous les niveaux de l'organisation.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Gestion de projet</h5>
+                            <p class="card-text">Planification, mise en œuvre et suivi des initiatives HSE.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="ressources" class="mt-5">
+            <h2 class="section-title">Ressources utiles</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5>Articles</h5>
+                    <ul class="list-group">
+                        <li class="list-group-item"><a href="#">Les dernières tendances en HSE</a></li>
+                        <li class="list-group-item"><a href="#">Comment implémenter ISO 14001</a></li>
+                        <li class="list-group-item"><a href="#">Meilleures pratiques en sécurité au travail</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Guides</h5>
+                    <ul class="list-group">
+                        <li class="list-group-item"><a href="#">Guide complet sur OHSAS 18001</a></li>
+                        <li class="list-group-item"><a href="#">Checklist pour l'audit HSE</a></li>
+                        <li class="list-group-item"><a href="#">Manuel du responsable HSE</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Vidéos</h5>
+                    <ul class="list-group">
+                        <li class="list-group-item"><a href="#">Formation sur l'analyse des risques</a></li>
+                        <li class="list-group-item"><a href="#">Présentation des équipements de protection</a></li>
+                        <li class="list-group-item"><a href="#">Webinaire sur la gestion environnementale</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="mt-5">
+            <h2 class="section-title">Contactez-nous</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Nom</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Envoyer</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="bg-light mt-5 py-3">
+        <div class="container text-center">
+            <p>&copy; 2024 HSE Guidance. Tous droits réservés
+            conctact: (+228)98920744.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Form submission
+        document.querySelector('form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Merci pour votre message ! Nous vous contacterons bientôt.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
